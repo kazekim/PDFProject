@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/bookpath"
+  android:textSize="35dip"
+  android:textStyle="bold"
+  android:textColor="#FFFFFF"
+  android:layout_marginLeft="10dp"
+  />
+    <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/booktitle"
+  android:textSize="25dip"
+  android:textStyle="bold"
+  android:textColor="#FFFFFF"
+  android:layout_marginLeft="10dp"
+  android:layout_below="@+id/bookpath"
+  />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" android:background="@drawable/drawbinbutton"
+        android:id="@+id/deletebookbutton"/>
+
+</RelativeLayout>

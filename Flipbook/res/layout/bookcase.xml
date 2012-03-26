@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bookcase"
+    >
+     <ImageView 
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:src="@drawable/shelfbggreen" android:scaleType="fitXY" 
+android:id="@+id/bgid" android:contentDescription="@string/desc"/>
+     <LinearLayout
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    >
+    <RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/headlayout"
+    >
+ <ImageView android:id="@+id/headbar"
+               android:layout_width="1024dp"
+               android:layout_height="125dp"
+               android:src="@drawable/shelfheadbar"
+               android:contentDescription="@string/desc"
+               />
+       <ImageView android:id="@+id/headlogo"
+               android:layout_width="142dp"
+               android:layout_height="143dp"
+               android:src="@drawable/flipbooklogo"
+               android:contentDescription="@string/desc"
+               android:layout_alignBottom="@+id/headbar"
+               android:layout_marginLeft="20dp"
+               /> 
+<ImageView android:id="@+id/headtitle"
+               android:layout_width="273dp"
+               android:layout_height="89dp"
+               android:src="@drawable/shelftitle"
+               android:contentDescription="@string/desc"
+               android:layout_toRightOf="@+id/headlogo"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="10dp"
+               />
+
+<LinearLayout android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true" 
+    android:layout_alignParentRight="true">
+
+    <Button android:id="@+id/addbookbutton"
+         android:layout_width="129dp" android:layout_height="125dp" 
+			android:background="@drawable/menuaddbookbutton"
+          ></Button>
+    <Button android:id="@+id/editshelfbutton"
+         android:layout_width="129dp" android:layout_height="125dp" 
+			android:background="@drawable/menueditshelfbutton"
+          ></Button>
+    <Button android:id="@+id/settingbutton"
+         android:layout_width="129dp" android:layout_height="125dp" 
+			android:background="@drawable/menusettingbutton"
+          ></Button>
+</LinearLayout>
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:id="@+id/sublayout"
+    android:layout_marginBottom="5dp"
+    android:layout_weight="1"
+    >
+    
+         <GridView
+    android:id="@+id/bookcasegridview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:numColumns="4"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="0dp"
+    android:columnWidth="256dp"
+    android:stretchMode="columnWidth"
+	
+	android:listSelector="@android:color/transparent"
+/>
+ <ListView android:layout_height="fill_parent" 
+     android:id="@+id/bookcaselistview" android:layout_width="fill_parent"
+     android:divider="#FFCC00"
+      android:cacheColorHint="@android:color/transparent"
+     android:visibility="gone"
+     ></ListView>
+ 
+  <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="261dp"
+        android:layout_height="34dp"
+        android:background="@drawable/shelfsearchtextarea" 
+        android:inputType="text" 
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp">
+	
+    </EditText>
+    <Button android:id="@+id/searchbutton"
+         android:layout_width="30dp" android:layout_height="31dp" 
+			android:background="@drawable/shelfsearchbutton"
+			android:layout_toRightOf="@+id/searchEditText"
+			android:layout_alignParentTop="true"
+			android:layout_marginLeft="10dp"
+          ></Button>
+    <LinearLayout android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true">
+    <Button android:id="@+id/viewgridbutton"
+         android:layout_width="41dp" android:layout_height="39dp" 
+			android:background="@drawable/shelfgridview"
+			android:layout_marginRight="10dp"
+          ></Button>
+    <Button android:id="@+id/viewlistbutton"
+         android:layout_width="41dp" android:layout_height="39dp" 
+			android:background="@drawable/shelflistview"
+			android:layout_marginRight="10dp"
+          ></Button>
+        </LinearLayout>
+ </RelativeLayout>
+ </LinearLayout>
+
+
+
+</RelativeLayout>

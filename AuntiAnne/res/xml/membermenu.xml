@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<membermenu>
-	<menu index="10" name="Birthday" thumburl="memberbirthday" type="Birthday"/>
-	<menu index="11" name="Activity" thumburl="memberactivity" type="Activity"/>
-	<menu index="12" name="E-Coupon" thumburl="memberecoupon" type="E-Coupon"/>
-</membermenu>

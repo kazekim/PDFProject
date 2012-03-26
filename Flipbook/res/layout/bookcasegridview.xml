@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="300dp"
+  android:id="@+id/shelfbar"
+
+  >
+   <ImageView android:layout_height="45dp" 
+    android:id="@+id/bookshelf" android:layout_width="256dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:contentDescription="@string/desc"
+    android:src="@drawable/shelfbarleft"
+    ></ImageView>
+    <ImageView android:layout_height="wrap_content" 
+    android:id="@+id/bookimage" android:layout_width="wrap_content"
+    android:contentDescription="@string/desc"
+
+    ></ImageView>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true" android:background="@drawable/drawbinbutton"
+        android:id="@+id/deletebookbutton" android:visibility="gone"/>
+   
+</RelativeLayout>
