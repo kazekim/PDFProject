@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">AuntieAnne\'sThailand</string>
+    <string name="yes">ตกลง</string>
+    <string name="no">ยกเลิก</string>
+    <string name="nouser">ไม่มีข้อมูลผู้ใช้งานในระบบ</string>
+    <string name="connectionerror">การเชื่อมต่อผิดพลาด กรุณาตรวจสอบอินเตอร์เน็ต</string>
+    <string name="dataerror">ข้อมูลของระบบผิดพลาด กรุณาติดต่อผู้ดูแล</string>
+    <string name="desc"/>
+    <string name="mainbutton1">HIGHLIGHT</string>
+    <string name="mainbutton2">MEMBER</string>
+    <string name="mainbutton3">E-COUPON</string>
+    <string name="mainbutton4">E-CARD</string>
+    <string name="mainbutton5">LOCATION</string>
+    <string name="mainbutton6">CONTACT</string>
+    <string name="mainbutton7">CORE MENU</string>
+    <string name="coremenutitle">CORE MENU</string>
+    <string name="confirmusecoupon">ยืนยันการใช้คูปอง (ผู้ใช้งาน)</string>
+    <string name="confirmusecouponshop">ยืนยันการใช้คูปอง (ร้านค้า)</string>
+     <string name="getcoupon">รับคูปองประจำวันที่</string>
+     <string name="loginquestion">กรุณากรอกเบอร์โทรศัพท์</string>
+     <string name="loginregisterdesc">หากยังไม่ลงทะเบียน\nลูกค้าจะเข้าสู่หน้าสมาชิกได้\nต่อเมื่อลงทะเบียนแล้วเท่านั้น</string>
+     <string name="confirm">ยืนยัน</string>
+     <string name="plzcorrecttel">กรุณากรอกเบอร์โทรศัพท์ให้ถูกต้อง</string>
+     <string name="loginfail">ไม่มีชื่อผู้ใช้งานนี้ในระบบ</string>
+     <string name="hisir">สวัสดี คุณ</string>
+     <string name="checkquota">Check Quota</string>
+     <string name="checkpoint">Check Point</string>
+     <string name="checkquotadetail1">สิทธิคงเหลือ</string>
+     <string name="checkquotadetail2">ณ วันที่</string>
+     <string name="checkquotadetail3">สิทธิ</string>
+     <string name="checkpointdetail">แต้ม</string>
+     <string name="happybirthday">Happy Birthday</string>
+     <string name="to">TO</string>
+     <string name="nodata">ไม่พบข้อมูล</string>
+     <string name="birthdaypromotion">รับฟรีเพรทเซล 2 ชิ้น</string>
+     <string name="birthdaypromotiondescript">(Specialty Pretzel 1 ชิ้น และ Premium Pretzel 1 ชิ้น)</string>
+     
+     <string name="mode_ready">Sprite Tutorial\nTap Screen to begin</string>
+	<string name="mode_pause">Paused\nTap Screen To Resume</string>	
+	<string name="mode_lose">Game Over\nTap Screen to begin</string>
+	<string name="mode_win_prefix">Success!\n</string> 
+	<string name="mode_win_suffix">in a row\nPress Up to Play</string> 
+	
+</resources>

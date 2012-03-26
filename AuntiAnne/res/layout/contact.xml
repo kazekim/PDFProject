@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+  
+    >
+    
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  android:layout_marginTop="10dip"
+  android:id="@+id/tellayout"
+
+    >
+    <ImageView android:src="@drawable/picphonehd" android:layout_height="23dp" 
+    android:id="@+id/telicon" android:layout_width="14dp"
+    android:contentDescription="@string/desc"
+    android:layout_marginRight="5dip"
+    ></ImageView>
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/teltext"
+  android:textSize="20dip"
+  android:textStyle="bold"
+  android:layout_marginRight="5dip"
+  android:text="@string/teltext"
+  android:layout_toRightOf="@+id/telicon"
+  />
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/telvalue"
+  android:textSize="20dip"
+  android:text="@string/value"
+  android:layout_toRightOf="@+id/teltext"
+  />
+        <Button
+	android:id="@+id/telbutton"
+    android:layout_width="39dp" 
+    android:layout_height="16dp" 
+    android:background="@drawable/buttoncallhd"
+    android:layout_alignParentRight="true"  
+    />
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/teltext2"
+  android:textSize="20dip"
+  android:textStyle="bold"
+  android:layout_marginRight="5dip"
+  android:text="@string/teltext"
+   android:layout_below="@+id/telbutton"
+  android:layout_toRightOf="@+id/telicon"
+  android:layout_marginTop="10dip"
+  />
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/telvalue2"
+  android:textSize="20dip"
+  android:text="@string/value"
+  android:layout_toRightOf="@+id/teltext2"
+  android:layout_below="@+id/telbutton"
+  android:layout_marginTop="10dip"
+  />
+        <Button
+	android:id="@+id/telbutton2"
+    android:layout_width="39dp" 
+    android:layout_height="16dp" 
+    android:background="@drawable/buttoncallhd"
+    android:layout_alignParentRight="true"
+ 	android:layout_below="@+id/telbutton"
+ 	android:layout_marginTop="10dip"
+    />
+        <ImageView android:src="@drawable/linehd" android:layout_height="wrap_content" 
+    android:id="@+id/telline1" android:layout_width="fill_parent"
+    android:layout_marginTop="5dip"
+    android:contentDescription="@string/desc"
+    android:layout_below="@+id/telbutton2"
+    ></ImageView>
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/faxtext"
+  android:textSize="20dip"
+  android:textStyle="bold"
+  android:layout_marginRight="5dip"
+  android:layout_marginTop="5dip"
+  android:text="@string/faxtext"
+  android:layout_below="@+id/telline1"
+  android:layout_toRightOf="@+id/telicon"
+  />
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/faxvalue"
+  android:textSize="20dip"
+  android:layout_marginTop="5dip"
+  android:text="@string/value"
+  android:layout_toRightOf="@+id/faxtext"
+  android:layout_below="@+id/telline1"
+  />
+    </RelativeLayout>
+    <ImageView android:src="@drawable/linehd" android:layout_height="1dp" 
+    android:id="@+id/telline2" android:layout_width="272dp"
+    android:layout_marginTop="5dip"
+    android:contentDescription="@string/desc"
+    android:layout_below="@+id/tellayout"
+    ></ImageView>
+	<RelativeLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  android:layout_marginTop="5dip"
+  android:id="@+id/addresslayout"
+	android:layout_below="@+id/telline2"
+    >
+    <ImageView android:src="@drawable/picaddresshd" android:layout_height="21dp" 
+    android:id="@+id/addressicon" android:layout_width="23dp"
+    android:contentDescription="@string/desc"
+    android:layout_marginRight="5dip"
+    ></ImageView>
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/addresstext"
+  android:textSize="20dip"
+  android:textStyle="bold"
+  android:text="@string/addresstext"
+  android:layout_toRightOf="@+id/addressicon"
+  />
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/addressvalue"
+  android:textSize="20dip"
+  android:text="@string/value"
+  android:layout_toRightOf="@+id/addressicon"
+  android:layout_below="@+id/addresstext"
+  />
+    </RelativeLayout>
+    <ImageView android:src="@drawable/linehd" android:layout_height="1dp" 
+    android:id="@+id/telline3" android:layout_width="272dp"
+    android:layout_marginTop="5dip"
+    android:contentDescription="@string/desc"
+    android:layout_below="@+id/addresslayout"
+    ></ImageView>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  android:layout_marginTop="5dip"
+  android:id="@+id/linkslayout"
+	android:layout_below="@+id/telline3"
+    >
+    <ImageView android:src="@drawable/piclinkhd" android:layout_height="19dp" 
+    android:id="@+id/linkicon" android:layout_width="19dp"
+    android:contentDescription="@string/desc"
+    android:layout_marginRight="5dip"
+    ></ImageView>
+        <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/linktext"
+  android:textSize="20dip"
+  android:textStyle="bold"
+  android:layout_marginRight="5dip"
+  android:text="@string/linktext"
+  android:layout_toRightOf="@+id/linkicon"
+  />
+	<LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  android:id="@+id/linklayout"
+  android:layout_below="@+id/linktext"
+   android:layout_toRightOf="@+id/linkicon"
+  android:orientation="vertical"
+    >
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

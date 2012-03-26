@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="teltext">Tel. </string>
+    <string name="value">value</string>
+    <string name="faxtext">Fax </string>
+    <string name="addresstext">Address </string>
+    <string name="linktext">Link </string>
+</resources>

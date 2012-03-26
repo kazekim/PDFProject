@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="20dip"
+   >
+   <ImageView 
+android:layout_width="312dp" android:layout_height="89dp"
+android:src="@drawable/boxyellowhd02" 
+android:id="@+id/birthdaybox" android:contentDescription="@string/desc"
+   android:layout_centerHorizontal="true" 
+    /> 
+    <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/birthdaytitletext"
+  android:layout_centerHorizontal="true"
+  android:layout_marginTop="10dip"
+  android:text="@string/happybirthday"
+  />
+ <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/birthdaytitletext2"
+  android:layout_marginTop="10dip"
+  android:layout_marginLeft="10dip"
+  android:text="@string/to"
+  android:layout_below="@+id/birthdaytitletext"
+  android:layout_alignLeft="@+id/birthdaytitletext"
+  />
+ 
+ <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/birthdaynametext"
+  android:layout_marginTop="10dip"
+  android:layout_marginLeft="10dip"
+  android:layout_below="@+id/birthdaytitletext"
+  android:layout_toRightOf="@+id/birthdaytitletext2"
+  />
+ 
+ <ImageView 
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:src="@drawable/linebirthday" 
+android:id="@+id/linebirthdayname" android:contentDescription="@string/desc"
+android:layout_below="@+id/birthdaynametext"
+  android:layout_toRightOf="@+id/birthdaytitletext2"
+android:layout_marginLeft="10dip"
+/>
+ 
+ <ImageView 
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:src="@drawable/picbirthday" 
+android:id="@+id/birthdaypic" android:contentDescription="@string/desc"
+android:layout_below="@+id/birthdaybox"
+  android:layout_centerHorizontal="true"
+android:layout_marginLeft="10dip"
+/>
+ <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/birthdaypromotion"
+  android:layout_centerHorizontal="true"
+  android:layout_marginTop="10dip"
+  android:text="@string/birthdaypromotion"
+  android:layout_below="@+id/birthdaypic"
+  />
+ <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/birthdaypromotiondescript"
+  android:layout_centerHorizontal="true"
+  android:text="@string/birthdaypromotiondescript"
+   android:layout_below="@+id/birthdaypromotion"
+  />
+ <Button
+	android:id="@+id/usebirthdaybutton"
+    android:layout_width="76dp" 
+    android:layout_height="43dp" 
+    android:background="@drawable/buttonbirthday"
+    android:layout_centerHorizontal="true"
+ 	android:layout_below="@+id/birthdaypromotiondescript"
+    />
+ 
+ <include
+      layout="@layout/couponconfirmdialog"
+      android:layout_centerInParent="true"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+ />
+</RelativeLayout>

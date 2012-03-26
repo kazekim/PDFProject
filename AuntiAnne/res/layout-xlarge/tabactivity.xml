@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/tabpage"
+  >
+    
+    <FrameLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#DDDDDD"
+android:id="@+id/headview"
+>
+
+</FrameLayout>
+<RelativeLayout
+       xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+  <ImageView 
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:src="@drawable/backgroundhd" android:scaleType="fitXY" 
+android:id="@+id/bgid"
+android:contentDescription="@string/desc"
+/>
+    <LinearLayout android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/pageview"
+
+>
+    </LinearLayout>
+    </RelativeLayout>
+   
+    
+</LinearLayout>

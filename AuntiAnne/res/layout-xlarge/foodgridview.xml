@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/foodgrid"
+  >
+ 
+  <ImageView 
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:src="@drawable/boxbluehd"
+android:id="@+id/foodbackground"
+android:contentDescription="@string/desc"
+android:layout_centerHorizontal="true"
+/>
+    <ImageView android:src="@drawable/activitycategory" android:layout_height="wrap_content" 
+    android:id="@+id/foodimage" android:layout_width="wrap_content"
+    android:contentDescription="@string/desc"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="10dip"
+    ></ImageView>
+  
+    <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/foodname"
+  android:textSize="10dip"
+  android:layout_centerHorizontal="true"
+  android:gravity="center_horizontal"
+  android:layout_above="@+id/fooddescript"
+  />
+    
+    <TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/fooddescript"
+  android:textSize="10dip"
+  android:layout_centerHorizontal="true"
+  android:gravity="center_horizontal"
+  android:layout_alignBottom="@+id/foodbackground"
+  />
+  
+</RelativeLayout>

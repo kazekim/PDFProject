@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:baselineAligned="false"
+>
+<FrameLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#DDDDDD"
+android:id="@+id/headview"
+>
+
+</FrameLayout>
+<FrameLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="0dip"
+android:layout_weight="1"
+>
+  <ImageView 
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:src="@drawable/backgroundhd" android:scaleType="fitXY" 
+android:id="@+id/bgid" android:contentDescription="@string/desc"/>
+<RelativeLayout android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center_vertical"
+>
+<LinearLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom"
+android:layout_marginTop="20dip"
+android:id="@+id/mainpagefirstrowbutton"
+>
+<Button
+	android:id="@+id/newsbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/highlighthd"
+    />
+
+<Button
+	android:id="@+id/memberbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33"
+    android:background="@drawable/memberthd"
+     /> 
+
+
+<Button
+	android:id="@+id/ecouponbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/ecouponhd"
+    /> 
+
+
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/mainpagefirstrowtext"
+android:layout_below="@+id/mainpagefirstrowbutton"
+>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton1" 
+android:id="@+id/newsmainlabel" 
+android:layout_weight=".33" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton2" 
+android:id="@+id/membermainlabel" 
+android:layout_weight=".33" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton3" 
+android:id="@+id/ecouponmainlabel" 
+android:layout_weight=".33" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:id="@+id/mainpagesecondrowbutton"
+android:layout_below="@+id/mainpagefirstrowtext"
+>
+<Button
+	android:id="@+id/ecardbutton" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/ecardhd"
+    /> 
+
+<Button
+	android:id="@+id/locationbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/locationhd"
+    /> 
+
+
+<Button
+	android:id="@+id/contactbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/contacthd"
+    /> 
+
+
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/mainpagesecondrowtext"
+android:layout_below="@+id/mainpagesecondrowbutton"
+>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton4" 
+android:id="@+id/ecardmainlabel" 
+android:layout_weight=".33" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton5" 
+android:id="@+id/locationmainlabel" 
+android:layout_weight=".33" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton6" 
+android:id="@+id/contactmainlabel" 
+android:layout_weight=".33" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:id="@+id/mainpagethirdrowbutton"
+android:layout_below="@+id/mainpagesecondrowtext"
+>
+<Button
+	android:id="@+id/auntieannemenubutton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/coremenuhd"
+    /> 
+
+
+
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/mainpagethirdrowtext"
+android:layout_below="@+id/mainpagethirdrowbutton"
+>
+<TextView android:layout_height="wrap_content" 
+android:text="@string/mainbutton7" 
+android:id="@+id/coremenumainlabel" 
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+></TextView>
+
+
+</LinearLayout>
+
+</RelativeLayout>
+</FrameLayout>
+
+</LinearLayout>

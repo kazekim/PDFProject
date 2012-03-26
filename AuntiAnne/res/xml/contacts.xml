@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<contacts>
+	<tel1 value="02-2331166" descript="Pretzel Club Line" />
+	<tel2 value="02-2333768" descript="Customer Service" />
+	<fax value="02-2367631"/>
+	<address value="บริษัท เซ็นทรัลเรสตอรองส์ กรุ๊ป จำกัด\nชั้น 5 6 7 8\nอาคารเซ็นทรัลสีลมทาวเวอร์\n306 ซอย สีลม 30 ถ.สีลม\nแขวงสุริยะวงศ์ เขตบางรัก กทม. 10500\n(อานตี้ แอนส์ ชั้น 8)" />
+	<links>
+	    <link url="http://www.pretzelclub.com/" />
+	    <link url="http://www.crg.co.th" />
+	    <link url="http://th-th.facebook.com/pretzelclub1" />
+	</links>
+</contacts>

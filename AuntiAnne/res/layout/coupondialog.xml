@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/coupondialog"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              >
+    <ImageView android:id="@+id/confirmcouponusebox"
+               android:layout_width="320dp"
+               android:layout_height="207dp"
+               android:src="@drawable/boxsilverxhd"
+               android:contentDescription="@string/desc"
+               android:layout_centerInParent="true"
+               />
+    <TextView android:id="@+id/coupondialogtext"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/getcoupon"
+              android:layout_centerHorizontal="true"
+              android:layout_above="@+id/coupondialogdate"
+              />
+    <TextView android:id="@+id/coupondialogdate"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_above="@+id/confirmbutton2"
+              />
+        <Button
+	android:id="@+id/confirmbutton2"
+    android:layout_width="97dp" 
+    android:layout_height="54dp" 
+    android:background="@drawable/buttonokyellowhd"
+    android:layout_centerInParent="true"
+    />
+       
+       
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<categorylist>
+	<category index="1" cattype="Promotion" title="PROMOTION" thumb="http://www.pretzelclub.com/codegears/highlight/1.png" />
+	<category index="2" cattype="New Drinks" title="NEW DRINKS"  thumb="http://www.pretzelclub.com/codegears/highlight/2.png"/>
+	<category index="3" cattype="Activity" title="ACTIVITY" thumb="http://www.pretzelclub.com/codegears/highlight/3.png" />
+	<category index="4" cattype="Kids Gang Club" title="KIDS GANG CLUB" thumb="http://www.pretzelclub.com/codegears/highlight/4.png" />
+	<category index="5" cattype="Member Activity" title="Member Activity" thumb="activitycategory" />
+</categorylist>

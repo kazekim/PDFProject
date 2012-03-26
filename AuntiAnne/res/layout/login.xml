@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+<RelativeLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_centerInParent="true"
+>
+   <ImageView android:id="@+id/loginbox"
+               android:layout_width="225dp"
+               android:layout_height="270dp"
+               android:src="@drawable/boxsilver"
+               android:contentDescription="@string/desc"
+               android:layout_centerInParent="true"
+               />
+        
+     <LinearLayout 
+         android:layout_centerInParent="true"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         > 
+         <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"
+		android:id="@+id/registerdesc"
+        android:text="@string/loginregisterdesc"
+        android:layout_marginTop="15dip"
+        ></TextView>
+         <Button android:id="@+id/registerbutton"
+         android:layout_width="87dp" android:layout_height="46dp" 
+          android:layout_gravity="center_horizontal"
+			android:background="@drawable/buttonok_yellow_2"
+          ></Button>
+     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"
+		android:id="@+id/loginquestion"
+        android:text="@string/loginquestion"
+        android:layout_marginTop="15dip"
+        ></TextView>
+     <EditText android:layout_height="43dip" 
+     android:id="@+id/username"
+     android:layout_width="150dip" android:inputType="number"
+     android:layout_gravity="center_horizontal"
+     android:background="@drawable/boxmember"
+     android:gravity="center_horizontal|center_vertical"
+     ></EditText>
+
+        <Button android:id="@+id/loginbutton"
+         android:layout_width="87dp" android:layout_height="50dp" 
+		android:layout_gravity="center_horizontal"
+          android:background="@drawable/buttonokyellowhd"
+          ></Button>
+        
+
+</LinearLayout> 
+</RelativeLayout>
+</RelativeLayout>

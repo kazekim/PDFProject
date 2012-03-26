@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+  android:baselineAligned="false"
+  >
+    
+    <FrameLayout android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#DDDDDD"
+android:id="@+id/headview"
+>
+
+</FrameLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    >
+  <ImageView 
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:src="@drawable/backgroundhd" android:scaleType="fitXY" 
+android:id="@+id/bgid" android:contentDescription="@string/desc"/>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+<ScrollView
+        android:id="@+id/ecardmenuscrollview"
+        android:layout_width="fill_parent"
+		android:layout_marginTop="20dip"
+        android:layout_height="wrap_content" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ecardstickerlayout"
+	
+    >
+        </LinearLayout>
+        </ScrollView>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    
+    >
+
+    <com.CodeGears.AuntiAnne.eCard.EcardDecorateView
+      android:id="@+id/aview"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+    />
+    </LinearLayout>
+    </LinearLayout>
+<EditText android:layout_height="43dip" 
+     android:id="@+id/ecardttext"
+     android:layout_width="300dip" android:inputType="text"
+     android:layout_centerHorizontal="true"
+     android:layout_alignParentBottom="true"
+
+     ></EditText>
+
+</RelativeLayout>
+</LinearLayout>

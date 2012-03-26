@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/confirmdialog"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              >
+    <ImageView android:id="@+id/confirmcouponusebox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/boxsilverxhd"
+               android:contentDescription="@string/desc"
+               android:layout_centerInParent="true"
+               />
+    <TextView android:id="@+id/confirmcoupontext"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/confirmusecoupon"
+              android:layout_centerHorizontal="true"
+              android:layout_above="@+id/confirmcouponbuttonlayout"
+              />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/confirmcouponbuttonlayout"
+               >
+        <Button
+	android:id="@+id/confirmbutton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/buttonokbluehd"
+    />
+        
+        <Button
+	android:id="@+id/cancelbutton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_weight=".33" 
+    android:background="@drawable/buttonnohd"
+    />
+        
+    </LinearLayout>
+    
+    <TextView android:id="@+id/coupongeneratecode"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_below="@+id/confirmcouponbuttonlayout"
+              />
+    
+</RelativeLayout>

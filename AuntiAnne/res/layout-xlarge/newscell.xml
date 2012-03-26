@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  
+  >
+  <ImageView
+      android:layout_height="wrap_content" 
+    android:id="@+id/newsbox" 
+    android:layout_width="wrap_content"
+    android:contentDescription="@string/desc"
+    ></ImageView>
+  
+  <LinearLayout 
+      android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal|center_vertical"
+  android:orientation="horizontal"
+  android:layout_marginLeft="30dip"
+  android:layout_marginRight="30dip"
+      >
+    <ImageView android:src="@drawable/picmemberhd" android:layout_height="65dip" 
+    android:id="@+id/newsthumb" android:layout_width="100dip"
+    android:layout_marginRight="5dip"
+    android:contentDescription="@string/desc"
+     android:scaleType="fitXY" 
+    ></ImageView>
+  
+    <TextView android:layout_width="0dip"
+  android:layout_height="wrap_content"
+  android:id="@+id/newstitle"
+  android:textSize="15dip"
+  android:textStyle="bold"
+  android:layout_weight="1"
+  android:layout_gravity="center_vertical"
+  
+  />
+    </LinearLayout>
+</FrameLayout>
